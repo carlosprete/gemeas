@@ -12,10 +12,26 @@ body{
     background-color: purple;
 }
 
+.panel-tabset{
+    width: 95%;
+}
+
+.panel-tabset .nav-tabs{
+    overflow-x: visible;      /* allow horizontal scroll */
+    overflow-y: visible;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+}
+
+.nav-tabs {
+    border-color: rgba(146, 146, 146, 0.5);
+    font-size: 15px;
+}
 
 .nav-tabs .nav-link {
   color: #da1265ff;        /* inactive tabs */
   font-weight: 500;
+  background-color: rgba(230, 228, 228, 0.5);
 }
 
 /* Hover */
